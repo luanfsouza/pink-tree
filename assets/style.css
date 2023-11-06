@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;600;700&display=swap');
+
+:root {
+    --background-color1: #E01180;
+    --fill-link: #7CD3CC;
+    --others: #12081A;
+    --hover: #0FD983;
+}
+
+* {
+    margin: 0px;
+    font-family: 'Mukta', sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: var(--background-color1);
+}
+
+#profile {
+   margin-top: 45px; 
+   text-align: center;
+}
+
+#profile img {
+    width: 150px;
+    border: 2px solid var(--others);
+    border-radius: 50%;
+    
+}
+
+#user {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#links {
+    width: 430px;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 55px;
+    text-align: center;
+}
+
+#links p {
+    width: 426px;
+    height: 49px;
+    border: 2px solid var(--others);
+    border-radius: 8px;
+    padding: 7px;
+    margin-bottom: 25px;
+    box-shadow: 5px 7px 0px 0px var(--others);
+    background-color: var(--fill-link);
+}
+
+#links a {
+    text-decoration: none;
+    color: var(--others);
+    font-size: 20px;
+    font-weight: light;
+}
+
+#links a:hover {
+    color: var(--hover) ;
+    text-decoration: dashed;
+}
+
+#icons {
+    text-align: center;
+}
+
+#icons img {
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+    
+    #profile {
+        margin-top: 100px;
+    }
+
+    #profile img {
+        width: 130px;
+    }
+
+    #links {
+        width: 430px;
+        margin-bottom: 55px;
+    }
+
+    #links p {
+        width: 426px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+    #profile img {
+        width: 130px;
+    }
+
+    #user {
+        font-size: 18px;
+    }
+
+    #links {
+        width: 280px;
+    }
+
+    #links p {
+        width: 270px;
+    }
+}
