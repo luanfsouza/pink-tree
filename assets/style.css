@@ -94,15 +94,15 @@ body {
 }
 
 #colorsTable #colorOne{
-    background-color: #90ee90;
+    background-color: #E01180;
 }
 #colorsTable #colorOne:focus {
 }
 #colorsTable #colorTwo{
-    background-color: #87cefa;
+    background-color: #2D1640;
 }
 #colorsTable #colorThree{
-    background-color: #778899;
+    background-color: #0FA9D9;
 }
 
 #icons {
